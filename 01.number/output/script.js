@@ -17,4 +17,6 @@ let c = false;
 let d = ["Jannt", "Radin", "Rafin", "Rifat", "Raisan"];
 let e = [10, 20, 30, 40, 50, 60, 70, 80, 100];
 let f = { "a": 1, "b": 2, "c": 3 };
-console.log(a, b, c, d, e, f);
+let g = "Asif";
+let h = ['Mowry', 25, "Moushumi", 50];
+console.log(a, b, c, d, e, f, g, h);

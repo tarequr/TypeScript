@@ -23,5 +23,7 @@ let c : boolean  = false;
 let d : string[] = ["Jannt", "Radin", "Rafin", "Rifat", "Raisan"];
 let e : number[] = [10, 20, 30, 40, 50, 60, 70, 80, 100];
 let f : object = {"a": 1, "b": 2, "c": 3};
+let g : string | number =   "Asif";
+let h : (string | number)[] =   ['Mowry', 25, "Moushumi", 50];
 
-console.log(a, b, c, d, e, f);
+console.log(a, b, c, d, e, f, g, h);
