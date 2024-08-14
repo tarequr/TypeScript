@@ -27,3 +27,13 @@ let g : string | number =   "Asif";
 let h : (string | number)[] =   ['Mowry', 25, "Moushumi", 50];
 
 console.log(a, b, c, d, e, f, g, h);
+
+/***************************** OTHER'S TYPE DEFINE *****************************/
+let i : any;
+let j : any[] = ['Bangladesh', 1971];
+let k : {
+    "country": any ,
+    "victoryDay": any
+}
+
+console.log(i, j);

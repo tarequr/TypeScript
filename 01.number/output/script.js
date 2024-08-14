@@ -20,3 +20,8 @@ let f = { "a": 1, "b": 2, "c": 3 };
 let g = "Asif";
 let h = ['Mowry', 25, "Moushumi", 50];
 console.log(a, b, c, d, e, f, g, h);
+/***************************** OTHER'S TYPE DEFINE *****************************/
+let i;
+let j = ['Bangladesh', 1971];
+let k;
+console.log(i, j);
