@@ -1,13 +1,13 @@
 class Player {
-    private name : string;
-    public age : number;
-    readonly country : string;
+    
 
-    constructor(nm: string, ag : number, ctry: string) 
+    constructor(
+        private name : string,
+        public age : number,
+        readonly country : string
+    ) 
     {
-        this.name = nm;
-        this.age = ag;
-        this.country = ctry;    
+        //
     }
 
     play () {
